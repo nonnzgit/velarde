@@ -1,3 +1,13 @@
+:root {
+  --primary: #004db3;
+  --secondary: #c5c900;
+  --gradient: linear-gradient(
+    90deg,
+    rgba(0, 77, 179, 0.95) 0%,
+    rgba(14, 159, 255, 0.95) 100%
+  );
+}
+
 html,
 body {
   padding: 0;
