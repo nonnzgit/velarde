@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import BsNavBar from '../components/sections/BsNavBar';
+import Intro from '../components/sections/Intro';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <BsNavBar />
+      <Intro />
     </div>
   );
 }

@@ -90,6 +90,7 @@ export const StyledPhoneIcon = styled.div`
   color: white;
   background: var(--secondary);
   transition: all 0.0001s linear;
+  line-height: 1.4;
 `;
 
 export const ScUserButtons = styled.button`

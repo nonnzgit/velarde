@@ -27,7 +27,7 @@ export const ButtonArrow = props => {
   return (
     <StyledButton type="button" className="rounded-pill btn-rounded">
       {props.innerText}
-      <StyledPhoneIcon>
+      <StyledPhoneIcon className="center-content">
         <FaArrowRight />
       </StyledPhoneIcon>
     </StyledButton>

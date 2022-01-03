@@ -24,3 +24,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.color-secondary {
+  color: var(--secondary);
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
