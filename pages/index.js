@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import BsNavBar from '../components/sections/BsNavBar';
 import Intro from '../components/sections/Intro';
+import Productos from '../components/sections/Productos';
 import Servicios from '../components/sections/Servicios';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <BsNavBar />
       <Intro />
       <Servicios />
+      <Productos />
     </div>
   );
 }
