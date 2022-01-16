@@ -3,6 +3,7 @@ import BsNavBar from '../components/sections/BsNavBar';
 import Intro from '../components/sections/Intro';
 import Productos from '../components/sections/Productos';
 import Servicios from '../components/sections/Servicios';
+import Companies from '../components/sections/Companies';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Intro />
       <Servicios />
       <Productos />
+      <Companies />
     </div>
   );
 }
