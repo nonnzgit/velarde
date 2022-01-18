@@ -143,7 +143,8 @@ const Faq = () => {
               }}
             >
               <CustomToggle as={Card.Header} eventKey="3">
-                ¿Puedo cambiar de seguro de decesos o perderé la "antigüedad"?
+                ¿Puedo cambiar de seguro de decesos o perderé la
+                &quot;antigüedad&quot;?
               </CustomToggle>
               <Accordion.Collapse style={{ fontWeight: '600' }} eventKey="3">
                 <Card.Body>
