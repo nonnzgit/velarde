@@ -4,6 +4,7 @@ import Intro from '../components/sections/Intro';
 import Productos from '../components/sections/Productos';
 import Servicios from '../components/sections/Servicios';
 import Companies from '../components/sections/Companies';
+import Faq from '../components/sections/Faq';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Servicios />
       <Productos />
       <Companies />
+      <Faq />
     </div>
   );
 }
