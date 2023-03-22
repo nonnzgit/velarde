@@ -101,13 +101,13 @@ export const ScUserButtons = styled.button`
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 1.2rem;
+  padding: 0.4rem;
   margin: 0.5rem;
   color: white;
   border-radius: 10px;
   font-size: 1.2rem;
-  height: 2.2rem;
-  width: 2.2rem;
+  height: 2.6rem;
+  width: 2.6rem;
   box-shadow: 2px 2px rgba(37, 49, 55, 10%);
 
   &:hover {

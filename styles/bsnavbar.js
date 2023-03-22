@@ -38,8 +38,8 @@ export const ScNavlink = styled(Nav.Link)`
     color: white;
     text-decoration: underline !important;
     text-decoration-color: var(--secondary) !important;
-    text-decoration-thickness: 3px !important;
-    text-underline-offset: 1.7rem;
+    text-decoration-thickness: 4px !important;
+    text-underline-offset: 1.71rem;
   }
 
   @media (hover) and (max-width: 992px) {

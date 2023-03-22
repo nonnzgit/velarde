@@ -148,6 +148,17 @@ const Productos = () => {
               Tarificador Impago Alquiler
             </Button>
           </Link>
+
+          <Button
+            role="a"
+            href="https://wr.auraseguros.com/wr/Tarificador_D_Velarde"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btnTarif"
+            style={{ margin: '0 0.3rem 1rem 0.3rem' }}
+          >
+            Tarificador Decesos
+          </Button>
         </div>
 
         <Row>

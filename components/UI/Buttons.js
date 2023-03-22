@@ -49,20 +49,19 @@ export const ButtonToTop = () => {
   const topPage = () => document.body.scrollIntoView({ behavior: 'smooth' });
 
   return (
-    <Link href="/seguros" onClick={topPage} passHref>
-      <StyledButtonNavigation
-        type="button"
-        className="rounded-pill btn-rounded"
-      >
-        <FaChevronUp />
-      </StyledButtonNavigation>
-    </Link>
+    <StyledButtonNavigation
+      type="button"
+      className="rounded-pill btn-rounded"
+      onClick={topPage}
+    >
+      <FaChevronUp />
+    </StyledButtonNavigation>
   );
 };
 
 export const ButtonBack = () => {
   return (
-    <Link href="/seguros" passHref>
+    <Link href="/" passHref>
       <StyledButtonNavigation
         type="button"
         className="rounded-pill btn-rounded"

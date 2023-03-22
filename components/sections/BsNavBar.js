@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { ButtonPhone } from '../UI/Buttons';
 import Logo from '../../public/logo.svg';
+import Link from 'next/link';
 
 const BsNavBar = () => {
   const [toggleHam, setToggleHam] = useState(false);
@@ -34,47 +35,55 @@ const BsNavBar = () => {
         </div>
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="ml-auto d-flex align-items-center">
-            <ScNavlink
+            <Link
               active
               href="#servicios"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              Servicios
-            </ScNavlink>
-            <ScNavlink
+              <ScNavlink active>Servicios</ScNavlink>
+            </Link>
+            <Link
               active
               href="#productos"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              Productos
-            </ScNavlink>
-            <ScNavlink
+              <ScNavlink active>Productos</ScNavlink>
+            </Link>
+            <Link
               active
               href="#companies"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              Compañías
-            </ScNavlink>
-            <ScNavlink
+              <ScNavlink active>Compañías</ScNavlink>
+            </Link>
+            <Link
               active
               href="#faq"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              FAQ
-            </ScNavlink>
-            <ScNavlink
+              <ScNavlink active>FAQ</ScNavlink>
+            </Link>
+            <Link
               active
               href="#contacto"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              Contacta
-            </ScNavlink>
-            <ScNavlink
+              <ScNavlink active>Contacta</ScNavlink>
+            </Link>
+            <Link
               href="tel:+34955327396"
+              passHref
               onClick={() => setToggleHam(prevToggleHam => !prevToggleHam)}
             >
-              <ButtonPhone innerText={'955 327 396'} />
-            </ScNavlink>
+              <ScNavlink>
+                <ButtonPhone innerText={'955 327 396'} />
+              </ScNavlink>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
