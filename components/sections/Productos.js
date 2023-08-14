@@ -84,7 +84,7 @@ const Productos = () => {
   return (
     <ScProductos id="productos">
       <Container fluid={'xl'}>
-        <ScSubtitle responsive>Productos</ScSubtitle>
+        <ScSubtitle $responsive>Productos</ScSubtitle>
         <Separator style={{ display: 'block' }} />
         <ScTextLead style={{ textAlign: 'center' }}>
           Estos son algunos de los seguros que tenemos. Si necesitas cualquier

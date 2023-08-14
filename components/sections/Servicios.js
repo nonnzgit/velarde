@@ -17,7 +17,7 @@ const Servicios = () => {
         <Container fluid="xl">
           <Row>
             <Col>
-              <ScSubtitle responsive>Nuestros servicios</ScSubtitle>
+              <ScSubtitle $responsive>Nuestros servicios</ScSubtitle>
               <Separator />
             </Col>
           </Row>

@@ -95,9 +95,9 @@ export const StyledPhoneIcon = styled.div`
 
 export const ScUserButtons = styled.button`
   background: var(--secondary);
-  background: ${props => props.danger && '#EF5350'};
+  background: ${props => props.$danger && '#EF5350'};
   border: 2px solid var(--secondary);
-  border: ${props => props.dangerborder && '2px solid #EF5350'};
+  border: ${props => props.$dangerborder && '2px solid #EF5350'};
   display: inline-flex;
   justify-content: center;
   align-items: center;
