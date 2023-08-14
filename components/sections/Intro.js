@@ -16,7 +16,7 @@ const Intro = () => {
                 ¡Estás un poco más cerca de estar
                 <strong className="color-secondary"> bien asegurado</strong>!
               </ScTitle>
-              <ScTextBasic responsive className="texto1">
+              <ScTextBasic $responsive className="texto1">
                 Solicita tu estudio integral. Comprobaremos tus necesidades de
                 seguro y te ofreceremos las pólizas del mercado que más se
                 adapten a ti.

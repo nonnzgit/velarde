@@ -10,7 +10,7 @@ const Contacto = () => {
     <ScContacto id="contacto">
       <Container>
         <Row className="heading">
-          <ScSubtitle responsive className="d-block">
+          <ScSubtitle $responsive className="d-block">
             Contacta
           </ScSubtitle>
           <Separator className="d-block" />
@@ -25,7 +25,10 @@ const Contacto = () => {
               />
             </div>
             <div style={{ padding: '0 1rem 1rem 1rem' }}>
-              <ScSubtitle start style={{ marginTop: '3rem', fontSize: '3rem' }}>
+              <ScSubtitle
+                $start
+                style={{ marginTop: '3rem', fontSize: '3rem' }}
+              >
                 Confía en nosotros
               </ScSubtitle>
               <p className="lead">
@@ -36,7 +39,7 @@ const Contacto = () => {
                 seguro que hay en el mercado.
               </p>
               <ScSubtitle
-                start
+                $start
                 style={{ marginTop: '3rem', fontSize: '1.5rem' }}
               >
                 Quiero que reviséis mis seguros ¿Qué tengo que hacer?

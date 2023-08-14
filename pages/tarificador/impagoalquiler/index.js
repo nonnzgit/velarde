@@ -74,7 +74,7 @@ const TarificadorImpagoAlquiler = () => {
       <BsNavBarTarif />
       <ScTarificadorImpAlq>
         <Container fluid={'xl'}>
-          <ScSubtitle responsive>Tarificador Impago Alquiler</ScSubtitle>
+          <ScSubtitle $responsive>Tarificador Impago Alquiler</ScSubtitle>
           <Separator />
           <div className="parrilla">
             <ScPanel>
@@ -117,7 +117,7 @@ const TarificadorImpagoAlquiler = () => {
                 )) || (
                   <div>
                     <div className="titleDoc">
-                      <ScTextBasic bold style={{ textAlign: 'center' }}>
+                      <ScTextBasic $bold style={{ textAlign: 'center' }}>
                         Documentación necesaria para contratar:
                       </ScTextBasic>
                       <h5 style={{ fontSize: '1rem' }}>
@@ -130,7 +130,7 @@ const TarificadorImpagoAlquiler = () => {
                     </div>
 
                     <div className="infoDoc">
-                      <ScTextBasic bold>Siempre necesitaras:</ScTextBasic>
+                      <ScTextBasic $bold>Siempre necesitaras:</ScTextBasic>
                       <ul style={{ fontSize: '0.9rem' }}>
                         <li>
                           Solicitud de seguro firmada{' '}
@@ -140,7 +140,7 @@ const TarificadorImpagoAlquiler = () => {
                         </li>
                         <li>DNI/CIF de Inquilinos y Avalistas</li>
                       </ul>
-                      <ScTextBasic bold>
+                      <ScTextBasic $bold>
                         Si los inquilinos o avalistas son:
                       </ScTextBasic>
                       <label className="checkboxLabel">
@@ -259,19 +259,19 @@ const TarificadorImpagoAlquiler = () => {
 
             <ol>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Los precios corresponden a seguros que cubren 12 mensualidades
                   de alquiler impagadas.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Ten en cuenta que existe un mes de franquicia en el seguro de
                   impago de alquiler.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Hemos realizado la web para que los precios se ajusten lo
                   máximo posible a la realidad, pero en el caso del seguro de
                   impago de alquiler, el propio tarificador puede dar lugar a
@@ -281,7 +281,7 @@ const TarificadorImpagoAlquiler = () => {
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Este es el seguro que más contratan nuestros clientes, pero
                   tenemos seguros de impago de alquiler con mas coberturas y de
                   diversas compañías, contacta con nosotros y te ofreceremos el

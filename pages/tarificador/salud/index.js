@@ -137,7 +137,7 @@ const Index = () => {
       <BsNavBarTarif />
       <ScTarificadorSalud>
         <Container fluid={'xl'}>
-          <ScSubtitle responsive>Tarificador de Salud</ScSubtitle>
+          <ScSubtitle $responsive>Tarificador de Salud</ScSubtitle>
           <Separator />
           <div className="parrilla">
             <ScPanel>
@@ -165,7 +165,7 @@ const Index = () => {
                   </div>
                 ) : (
                   <div>
-                    <ScTextBasic bold style={{ textAlign: 'center' }}>
+                    <ScTextBasic $bold style={{ textAlign: 'center' }}>
                       Lista de personas que vas a incluir en la póliza:
                     </ScTextBasic>
                     {fechaNac.map((elem, idx) => (
@@ -179,8 +179,8 @@ const Index = () => {
                           </p>
                         </div>
                         <ScUserButtons
-                          danger
-                          dangerborder
+                          $danger
+                          $dangerborder
                           onClick={() => borrarFecha(elem.id)}
                         >
                           <FontAwesomeIcon
@@ -258,21 +258,21 @@ const Index = () => {
 
             <ol>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Los precios corresponden a seguros de salud COMPLETOS, esto
                   quiere decir, que tienen cobertura para atención primaria,
                   especialistas, pruebas diagnosticas, hospitalización, etc.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Los precios corresponden a seguros de salud SIN COPAGO, esto
                   quiere decir, que no tendrás que pagar cuando tengas que
                   usarlo.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   El seguro de salud podrá usarse desde que el día que se
                   contrate, pero algunas coberturas un tiempo más tarde. Esto es
                   lo que llamamos CARENCIAS, no te preocupes, no son muchas, y
@@ -281,20 +281,20 @@ const Index = () => {
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   El seguro de salud tiene un CUADRO MEDICO, que contiene todos
                   los centros y profesionales a los que podrás ir.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   El seguro dental también tiene un cuadro médico, pero en él no
                   todos los servicios son gratuitos, pero tienen un descuento
                   importante sobre los precios de mercado.
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Las compañías de salud solo cubren aquello que te ocurre desde
                   que contratas el seguro, todas las enfermedades que tuvieras
                   con anterioridad, podrán ser excluidas. Para ello, antes de
@@ -305,7 +305,7 @@ const Index = () => {
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Hemos realizado la web para que los precios se ajusten lo
                   máximo posible a la realidad, casi seguro que se
                   corresponderán con el que te ofrezcamos cuando contactes con
@@ -313,7 +313,7 @@ const Index = () => {
                 </ScTextLead>
               </li>
               <li>
-                <ScTextLead small>
+                <ScTextLead $small>
                   Este es el seguro que más contratan nuestros clientes, pero
                   tenemos seguros de salud con todo tipo de coberturas y de
                   diversas compañías, contacta con nosotros y te ofreceremos el

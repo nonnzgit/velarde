@@ -42,8 +42,8 @@ const Faq = () => {
         ></path>
       </svg>
       <Container fluid={'xl'} id="faq">
-        <ScSubtitle responsive>FAQ</ScSubtitle>
-        <Separator green></Separator>
+        <ScSubtitle $responsive>FAQ</ScSubtitle>
+        <Separator $green></Separator>
         <ScTextLead style={{ textAlign: 'center' }}>
           Te dejamos respuestas a las preguntas más frecuentes
         </ScTextLead>
