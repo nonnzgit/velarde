@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import { ScTextBasic, ScTitle } from '../../styles/globalStyles';
 import { ScIntroSection } from '../../styles/intro';
@@ -29,11 +28,7 @@ const Intro = () => {
               </a>
             </Col>
             <Col md={6} sm={12} className="pl-1 pr-1">
-              <Image
-                src={PolizaIntro}
-                alt="poliza de seguro"
-                layout="responsive"
-              />
+              <img src="/intro.svg" alt="poliza de seguro" width={'100%'} />
             </Col>
           </Row>
         </Container>

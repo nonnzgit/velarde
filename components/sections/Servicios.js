@@ -9,10 +9,6 @@ import {
 } from '../../styles/globalStyles';
 import { ButtonArrowWhite } from '../UI/Buttons';
 import { FaAddressCard, FaPeopleCarry, FaShieldAlt } from 'react-icons/fa';
-import Servicio1 from '../../public/servicios1.svg';
-import Servicio2 from '../../public/servicios2.svg';
-import Servicio3 from '../../public/servicios3.svg';
-import Image from 'next/image';
 
 const Servicios = () => {
   return (
@@ -57,12 +53,12 @@ const Servicios = () => {
               </div>
             </Col>
             <Col md={6} sm={12} className="CcContenedorImagen">
-              <Image src={Servicio1} alt="Estudio poliza" />
+              <img src="/servicios1.svg" alt="Estudio poliza" />
             </Col>
           </Row>
           <Row style={{ padding: '1rem', alignItems: 'center' }}>
             <Col md={6} sm={12} className="CcContenedorImagen">
-              <Image src={Servicio2} alt="Mediacion" />
+              <img src="/servicios2.svg" alt="Mediacion" />
             </Col>
             <Col md={6} sm={12}>
               <div>
@@ -101,7 +97,7 @@ const Servicios = () => {
               </div>
             </Col>
             <Col md={6} sm={12} className="CcContenedorImagen">
-              <Image src={Servicio3} alt="Seguridad" />
+              <img src="/servicios3.svg" alt="Seguridad" />
             </Col>
           </Row>
         </Container>

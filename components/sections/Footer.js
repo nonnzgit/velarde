@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import LogoG10 from '../../public/logoG10.png';
 import { ScFooter } from '../../styles/footer';
 
 const Footer = () => {
@@ -17,8 +15,8 @@ const Footer = () => {
               rel="noreferrer noopener"
               style={{ marginBottom: '1rem' }}
             >
-              <Image
-                src={LogoG10}
+              <img
+                src="/logoG10.png"
                 alt="logo correduria"
                 width={200}
                 height={50}

@@ -1,7 +1,6 @@
 import { ScCardContainer } from '../../styles/productos';
 import { Col } from 'react-bootstrap';
 import React from 'react';
-import Image from 'next/image';
 
 const Card = props => {
   return (
@@ -13,13 +12,13 @@ const Card = props => {
       style={{ paddingLeft: '1rem', paddingRight: '1rem' }}
     >
       <ScCardContainer className="shadow">
-        <Image
+        <img
           src={props.imagen}
           alt={props.alt}
           title={props.alt}
-          layout="responsive"
+          width={'100%'}
         />
-
+        {console.log(props)}
         <div className="CcCardInfo">
           <div className="CcTextInfo">
             <h4>{props.titulo}</h4>

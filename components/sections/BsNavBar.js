@@ -1,10 +1,8 @@
 import { Nav, Navbar, Container, NavbarBrand } from 'react-bootstrap';
 import { ScNavbar, ScNavlink } from '../../styles/bsnavbar';
 import { useState } from 'react';
-import Image from 'next/image';
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { ButtonPhone } from '../UI/Buttons';
-import Logo from '../../public/logo.svg';
 import Link from 'next/link';
 
 const BsNavBar = () => {
@@ -18,8 +16,8 @@ const BsNavBar = () => {
     >
       <Container fluid="xl">
         <NavbarBrand>
-          <Image
-            src={Logo}
+          <img
+            src="/logo.svg"
             alt="Logo de correduría Velarde Seguros / Grupo 10 Montequinto"
           />
         </NavbarBrand>

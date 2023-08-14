@@ -3,7 +3,6 @@ import logoConj from '../../public/logocon.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Separator, ScSubtitle } from '../../styles/globalStyles';
 import { FaCheck, FaEnvelope, FaPhoneAlt, FaStoreAlt } from 'react-icons/fa';
-import Image from 'next/image';
 
 const Contacto = () => {
   return (
@@ -18,8 +17,8 @@ const Contacto = () => {
         <Row className="cardContainer m-1 mt-5 shadow">
           <Col lg={6} className="firstCard p-3">
             <div className="col-12 p-0 mt-3 mb-3 d-flex justify-content-center">
-              <Image
-                src={logoConj}
+              <img
+                src="/logocon.jpg"
                 alt="logotipo conjunto corredurias"
                 className="logoconj"
               />

@@ -14,9 +14,11 @@ export const ScCompanies = styled.section`
   .swiper-slide {
     img {
       transition: transform ease-in-out 0.2s;
+      width: 100%;
 
       &:hover {
         transform: translateY(-4px);
+        border-bottom: 4px solid var(--secondary);
       }
     }
   }

@@ -3,16 +3,11 @@ import { Nav, Navbar, Container, NavbarBrand } from 'react-bootstrap';
 // STYLED COMPONENTS
 import { ScNavbar, ScNavlink } from '../../styles/bsnavbar';
 import { ButtonPhone } from '../UI/Buttons';
-// LOGO
-import Logo from '../../public/logo.svg';
 // ICONS
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FaBars, FaTimes } from 'react-icons/fa';
 // HOOKS
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import { FaBars, FaTimes } from 'react-icons/fa';
 
 const BsNavBarTarif = () => {
   const [toggleHam, setToggleHam] = useState(false);
@@ -32,8 +27,8 @@ const BsNavBarTarif = () => {
     >
       <Container fluid="xl">
         <NavbarBrand>
-          <Image
-            src={Logo}
+          <img
+            src="/logo.svg"
             alt="Logo de correduría Velarde Seguros / Grupo 10 Montequinto"
           />
         </NavbarBrand>
